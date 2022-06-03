@@ -1,0 +1,29 @@
+@import './base/colors.scss';
+@import './base/fonts.scss';
+
+header { 
+    width: 100%;
+    background-color: $base-color;
+}
+
+
+.menu {
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.title {
+    font-family: $heading-base;
+}
+
+
+.navigation-list {
+    display: flex;
+    list-style: none;
+}
+
+.navigation-item {
+    margin: 5px 25px 0 0;
+    font-family: $paragraph-base;
+}

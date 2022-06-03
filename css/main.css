@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Poppins-bold';
+  src: url(../../typography/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Manjari-thin';
+  src: url(../../typography/Manjari-Thin.ttf);
+}
+
+header {
+  width: 100%;
+  background-color: #525558;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.title {
+  font-family: "Poppins-bold";
+}
+
+.navigation-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navigation-item {
+  margin: 5px 25px 0 0;
+  font-family: "Manjari";
+}
+/*# sourceMappingURL=main.css.map */

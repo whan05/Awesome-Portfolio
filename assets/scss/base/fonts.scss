@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url(../../typography/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Manjari-thin';
+    src: url(../../typography/Manjari-Thin.ttf);
+}
+
+$heading-base: 'Poppins-bold';
+$paragraph-base: 'Manjari';
